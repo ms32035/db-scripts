@@ -30,4 +30,3 @@ res AS
 SELECT *
 FROM res
 ORDER BY table_bytes DESC
-

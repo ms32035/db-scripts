@@ -23,4 +23,3 @@ FROM svv_transactions a
         AND c.slice = 0
   LEFT JOIN pg_class d ON a.relation = d.oid
 WHERE a.relation IS NOT NULL
-
